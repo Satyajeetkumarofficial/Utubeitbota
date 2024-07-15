@@ -7,19 +7,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN ="5847138551:AAFyag9VMG7ZYhZIrIZ28vjYy8k8024Puug"
 
     SESSION_NAME = ":memory:"
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID ="27491848"
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH ="d4e84c7a5c66e705c2d721a5d32b2fff"
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID ="900959880281-jacjlpi0tfeche0ekbpuk5ke83aei1ic.apps.googleusercontent.com"
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET ="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"
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER ="5051184996"
 
     BOT_START_TIME = time.time()
     
@@ -31,7 +31,7 @@ class Config:
 
     SUPPORT_CHAT_LINK = os.environ.get("SUPPORT_CHAT_LINK")
 
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
+    AUTH_USERS_TEXT ="5051184996"
 
     AUTH_USERS = [BOT_OWNER, 754495556] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
