@@ -1,5 +1,6 @@
 from flask import Flask
-
+import time
+time.sleep(5)  # Allow time sync to avoid msg_id error
 app = Flask(__name__)
 
 @app.route('/')
